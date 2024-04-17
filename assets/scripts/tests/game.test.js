@@ -74,3 +74,4 @@ describe("gameplay works correctly", () => {
         expect(button.classList).toContain("light");
     })
 })
+
