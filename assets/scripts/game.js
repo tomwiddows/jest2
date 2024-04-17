@@ -6,10 +6,11 @@ let game = {
 }
 
 function newGame() {
-    game.score = 0;
     game.currentGame = [];
     game.playerMoves = [];
+    game.score = 0;
     showScore();
+    addTurn();
 }
 
 function showScore() {
